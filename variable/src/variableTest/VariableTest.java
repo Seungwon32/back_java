@@ -5,8 +5,8 @@ public class VariableTest {
 //		초기값
 //		정수(int) : 0
 //		실수(double): 0.0
-//		문자(char): ''
-//		문자열(String): null, ""
+//		문자(char): ''공백문자
+//		문자열(String): null, ""빈문자열
 		//기본 자료형
 		int num1 = 10;
 		double num2 = 10.7;
