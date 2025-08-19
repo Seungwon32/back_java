@@ -16,6 +16,7 @@ public class InputTask2 {
 		num1=sc.next();
 		num2=sc.next();
 		num3=sc.next();
+		sc.close();
 		
 		re1=Integer.parseInt(num1);
 		re2=Integer.parseInt(num2);

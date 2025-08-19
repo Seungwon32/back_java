@@ -17,6 +17,7 @@ public class InputTask1 {
 		System.out.println(message);
 		num1=sc.next();
 		num2=sc.next();
+		sc.close();
 		re1=Integer.parseInt(num1);
 		re2=Integer.parseInt(num2);
 		result = re1+re2;

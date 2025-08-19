@@ -14,6 +14,7 @@ public class InputTest {
 //      lastName = sc.next();
 //      firstName = sc.next();
       name = sc.nextLine();  //공백문자도 값으로 처리함
+      sc.close();
       
       System.out.println(name + "님 환영합니다.");
    }
