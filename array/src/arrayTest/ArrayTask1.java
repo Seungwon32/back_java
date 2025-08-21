@@ -64,7 +64,8 @@ public class ArrayTask1 {
 			System.out.println(arData7[i]);
 		}
 		
-		max=arData7[0], min=arData7[0];
+		max=arData7[0];
+		min=arData7[0];
 		for(int i=0; i<arData7.length-1; i++) {
 			if(max<arData7[i+1]) {
 				max = arData7[i+1];
@@ -80,25 +81,25 @@ public class ArrayTask1 {
 		
 //      다이아
 //      사용자가 입력할 정수의 개수만큼 배열을 만든 후 정수를 입력받고 평균 구하기
-		String messages="숫자들 입력", lines = null;
-		int count =0;
-		int[] arData8 = null;
-		System.out.println(messages);
-		
-		while(true) {
-			lines = sc.nextLine();
-            if (lines.equals("")) break;  
-		}
-		for(int i=0; i<lines.length(); i++) {
-			count++;
-		}
-	
-		int[] arData8 = new int[count];
-		
-		for(int i =0; i<count; i++) {
-			arData8[i] += lines[i];
-		}
-		
+//		String messages="숫자들 입력", lines = null;
+//		int count =0;
+//		int[] arData8 = null;
+//		System.out.println(messages);
+//		
+//		while(true) {
+//			lines = sc.nextLine();
+//            if (lines.equals("")) break;  
+//		}
+//		for(int i=0; i<lines.length(); i++) {
+//			count++;
+//		}
+//	
+//		int[] arData8 = new int[count];
+//		
+//		for(int i =0; i<count; i++) {
+//			arData8[i] += lines[i];
+//		}
+//		
 			
 		
 	}
