@@ -3,13 +3,9 @@ package castingTask4;
 //- 필드: 이름, 전화번호, 돈, 포인트, 쿠폰 
 public class MarketNonMember extends Customer{
 	public MarketNonMember() {;}
-	public MarketNonMember(String name, int money) {
-        super(name, money);
+	public MarketNonMember(String name, String phone, int money) {
+        super(name, phone, money);
     }
 
-    // 비회원은 5% 할인
-    double discountRate() {
-        return 0.05;
-    }
-	
+
 }

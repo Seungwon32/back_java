@@ -4,13 +4,9 @@ package castingTask4;
 public class MarketMember extends Customer{
 	public MarketMember() {;}
 
-	public MarketMember(String name, int money) {
-	        super(name, money);
+	public MarketMember(String name, String phone, int money) {
+	        super(name, phone, money);
 	    }
 	
-	    // 회원은 30% 할인
-	    double discountRate() {
-	        return 0.30;
-	    }
-	
+
 }

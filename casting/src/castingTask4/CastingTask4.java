@@ -38,5 +38,8 @@ package castingTask4;
 
 //결과 확인
 public class CastingTask4 {
-
+	public static void main(String[] args) {
+		MarketMember hong = new MarketMember("홍길동", "0104644646464",54565);
+		System.out.println(hong.getName());
+	}
 }
