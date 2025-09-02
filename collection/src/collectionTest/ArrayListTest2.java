@@ -1,4 +1,4 @@
-package collection;
+package collectionTest;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -47,16 +47,23 @@ public class ArrayListTest2 {
 			prev = datas.set(datas.indexOf(90), 9);
 		}
 		} catch (Exception e) {
-			// TODO: handle exception
+			e.printStackTrace();
 		}
-		
 		System.out.println(datas);
+		
 //		삭제
 //		80을 삭제  
 //		1.인덱스로 지우기
 		if(datas.contains(80)) {
-			datas.remove(datas.indexOf(datas));
+			datas.remove(datas.indexOf(80));
 		}
-		
+		System.out.println(datas);
+//		2. 값으로 삭제
+//		정수 -> 정수
+//		wrapper Class
+		if(datas.contains(80)) {
+			datas.remove(Integer.valueOf(80));
+		}
+		System.out.println(datas);
 	}
 }
