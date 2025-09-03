@@ -13,5 +13,5 @@ public class ArrayListTask2 {
 		}
 		System.out.println(datas);
 	}
-	for(Character )
+//	for(Character )
 }
